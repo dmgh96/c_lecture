@@ -126,7 +126,7 @@ int main() {
 	printf("%d\n", ch2);
 	*/
 
-
+/*
 	int num1 = 10;
 	int num2 = 3;
 
@@ -134,7 +134,7 @@ int main() {
 	result = (double)num1 / num2;
 
 	printf("결과 %f", result);
-
+	*/
 
 /*
 	char num1 = 128; //범위 벗어남
@@ -143,6 +143,103 @@ int main() {
 	printf("%d\n", num1);
 	printf("%d\n", num2);
 */
+
+/*
+	int a = 6, b = 5;
+
+	printf("덧셈 연산 결과 :  %d \n", a + b);
+	printf("뺄셈 연산 결과 :  %d \n", a - b);
+	printf("곱셈 연산 결과 :  %d \n", a * b);
+	printf("나눗셈 연산 결과 :  %d \n", a / b);
+	printf("나머지 연산 결과 :  %d \n", a % b); //나머지 구하기
+
+	int i = 0, j = 0, k = 0;
+
+	printf("i = %d, j = %d, k = %d \n", i, j, k);
+
+	i = 1;
+	j = 5;
+	k = 7;
+
+	printf("i = %d, j = %d, k = %d \n", i, j, k);
+*/
+	
+/*
+	int a = 10;
+
+	a += 10; // a = a + 10
+	printf("%d\n", a);
+
+	a -= 10; // a = a - 10
+	printf("%d\n", a);
+
+	a *= 10;
+	printf("%d\n", a);
+
+	a /= 10;
+	printf("%d\n", a);
+
+	a %= 10;
+	printf("%d\n", a);
+	*/
+	
+/*
+	int b = 10;
+
+	b++; //b = b + 1 (다음 라인에 연산결과)
+	printf("%d\n", b);
+
+	++b; //b = b + 1 (이 라인에 연산결과)
+	printf("%d\n", b);
+
+	b--; //b = b - 1
+	printf("%d\n", b);
+
+	--b; //b = b - 1
+	printf("%d\n", b);
+*/
+
+/*
+	int num1 = 20;  // 십진수 20은 이진수 0000 0000 0001 0100 
+	int num2 = 16;  // 십진수 16은 이진수 0000 0000 0001 0000 
+
+	char result1, result2, result3, result4;
+
+	result1 = num1 & num2; //두 수가 모두 1일때만 1이된다.
+	//0000 0000 0001 0100
+	//0000 0000 0001 0000
+	//0000 0000 0001 0000 = 16
+	printf("비트 단위 AND(논리곱) 연산의 결과 %d \n", result1);
+
+	result2 = num1 | num2; //둘중에 하나라도 1이면 1이다. 둘다 0 = 0
+	printf("비트 단위 OR(논리합) 연산의 결과 %d \n", result2);
+
+	result3 = num1 ^ num2; //두 수가 다르면 1 같으면 0
+	printf("비트 단위 XOR(배타적 논리합) 연산의 결과 %d \n", result3);
+
+	result4 = ~num1; // 20의 보수 = -(20 + 1) '뒤집는다'
+	printf("비트 단위 NOT(부정) 연산의 결과 %d \n", result4);
+*/
+/*
+	int number = 500; //0000 0001
+	printf("%d\n", number << 1); //0000 0010 
+	printf("%d\n", number << 2); //0000 0100
+	printf("%d\n", number << 3); //0000 1000
+	printf("%d\n", number << 4); //0001 0000
+
+	number = 16;
+	printf("%d\n", number >> 1);  
+	printf("%d\n", number >> 2); 
+	printf("%d\n", number >> 3);
+	printf("%d\n", number >> 4); 
+*/	
+
+	char ch = 0;
+	printf("문자를 입력하세요. : ");
+	ch = getchar();
+	printf("문자 : %c \n", ch);
+
+	putchar('db');
 
 	return 0;
 }
